@@ -7,19 +7,13 @@ recordatorios = [['2021-01-01', "11:00", "Levantarse y ejercitar"],
 # Output
 #print(recordatorios)
 
+recordatorios.insert(0,['2021-02-02',"06:00","Empezar el año"]) #agrega evento
 
-
-
-
-recordatorios [2][0] = '2021-07-16'  #modifica fecha de feriado
+recordatorios [3][0] = '2021-07-16'  #modifica fecha de feriado
 
 del recordatorios[2] #elimina dia del trabajo
 
-recordatorios.insert(0,['2021-02-02',"06:00","Empezar el año"]) #agrega evento
-
-recordatorios.insert(3,['2021-12-24',"22:00","Cena de navidad"])
-recordatorios.insert(5,['2021-12-31',"22:00","Cena de Año Nuevo"])
-
-
+recordatorios.insert(4,['2021-12-24',"22:00","Cena de navidad"])
+recordatorios.append(['2021-12-31',"22:00","Cena de Año Nuevo"])
 
 print(recordatorios)
